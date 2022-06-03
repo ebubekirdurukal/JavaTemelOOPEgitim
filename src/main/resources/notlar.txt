@@ -1,0 +1,16 @@
+OOP Prensipleri
+===============
+
+Encapsulation:(Kapsülleme)
+ * Field'larımızı kontrollü bir biçimde korumaya alırız. (private tanımlarız, getter-setter ile dünyaya açarız.)
+
+Polymorphism(Çok şekillilik)
+ * Bir metodu ezerek aynı isimle başka işler yaptırırız. (Overriding.)
+
+Inheritence(Miras alma)
+ * extends keyword ü kullanarak gerçek dünyadakine benzer ilişkileri sınıflar arasında kurarız. Kod tekrarının önüne geçeriz. (Örneğin ad, soyad gibi
+ her subclass da olması gereken özellikleri superclass ta tanımlarız. Super ile çağırırız.)
+
+ Abstraction(Soyutlama)
+ * Metodlarımızı soyut bir biçimde tanımlarız. Yani tam olarak ne yapacaklarını yazmayız. Daha sonra içlerini başka sınıflarda doldururuz. Interface ve
+ abstract class olarak iki yöntemde yapabiliriz.
